@@ -1,0 +1,131 @@
+
+
+.topnav {
+  background-color: #f2faff;
+  overflow: hidden;
+  
+}
+.topnav a {
+  float: left;
+  color: #949da8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left:300px;
+}
+.topnav a:hover {
+  background-color: #b7c3c9;
+  color: #e3f3fc;
+}
+.topnav a.active {
+  background-color: #e1eaf0;
+  color: #b7c3c9;
+}
+.home {
+    text-align: center;
+}
+
+.cuadrado {
+            width: 270px;
+            height: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            color: black;
+            border-radius: 10px;
+            margin: 10px;
+        }
+.cuadrado2 {
+            width: 350px;
+            height: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            color: black;
+            border-radius: 10px;
+            margin: 10px;
+        }
+.cuadrado3 {
+            width: 210px;
+            height: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            color: black;
+            border-radius: 10px;
+            margin: 10px;
+        }
+.cuadrado4 {
+            width: 210px;
+            height: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            color: black;
+            border-radius: 10px;
+            margin: 10px;
+        }
+.cuadrado5 {
+            width: 390px;
+            height: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            color: black;
+            border-radius: 10px;
+            margin: 10px;
+        }
+.azul { background-color: #afcddb; }
+.SAME{
+    display:flex;
+}
+
+.Background h3 {
+    font-family: "Fantasy", fantasy, sans-serif;
+}
+
+.TITLE {
+   text-align: center;  
+}
+.table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            background-color: #ccdfe8;
+            color: #788b94;
+            font-family: "cursive", cursive, sans-serif;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            background-color: #e4eff5;
+            font-family: "fantasy", fantasy, sans-serif;
+            font-size: 1.0rem;
+  color: #8ca0ab;
+        }
+        
+.VIDEO {
+   text-align: center;  
+}
+
+.img {
+    text-align: center;
+}
+
+
