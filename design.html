@@ -1,76 +1,113 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>STEM HTML</title>
-       <link rel="stylesheet" href="style.css">
-       
-   </head>
-   <body class="Background">
-       
-      <div class="TITLE">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materials & Steps</title>
+     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .materials-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 10px 0;
+        }
+        .material {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .material img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .steps {
+            padding: 10px 0;
+        }
+        .steps ol {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="TITLE">
            <h1>STEM</h1>
            </div>
    <div class="topnav">
   <a href="index.html">Home</a>
   <a href="presentation.html">Presentantion</a>
-  <a href="background.html">Background</a>
-  <a class="active" href="design.html">Design</a>
+  <a class="active" href="background.html">Background</a>
+  <a href="design.html">Design</a>
   <a href="outcome.html">Outcome</a>
   <a href="improvements.html">Conclusion</a>
 </div>
+  <br>   <br>
+    <div class="container">
+        <h2>Materials</h2>
+        <div class="materials-list">
+            <div class="material">
+                <img src="https://partysocial.ae/cdn/shop/files/premium-balloon-5in-13cm-15-per-pack-party-social-8.webp?v=1720101505&width=1500" alt="Balloon">
+                <span>Balloon</span>
+            </div>
+            <div class="material">
+                <img src="https://crochetstores.mx/cdn/shop/products/wool-cotton-4ply-947423_1200x.jpg?v=1659037506" alt="Wool fabric">
+                <span>Wool Fabric</span>
+            </div>
+            <div class="material">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Graphite-233436.jpg" alt="Graphite">
+                <span>Graphite</span>
+            </div>
+            <div class="material">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/339478546/TK/YK/JH/53140702/wood-1-500x500.jpg" alt="Wood">
+                <span>Wood</span>
+            </div>
+            <div class="material">
+                <img src="https://yesstraws.com/cdn/shop/articles/1_plastic_bottles_3600x.jpg?v=1579268178" alt="Piece of plastic">
+                <span>Piece of Plastic</span>
+            </div>
+            <div class="material">
+                <img src="https://images-cdn.ubuy.co.id/633ac5db658b8e535040ab5c-hand2mind.jpg" alt="Coins">
+                <span>Copper & Silver Coin</span>
+            </div>
+        </div>
+           <br>   <br>
+        <h2>Steps</h2>
+        <div class="steps">
+            <ol>
+                <li>Rub the balloon vigorously on the wool fabric or your hair to transfer electrons.</li>
+                <li>Hold the balloon close to a small metal object.</li>
+                <li>Hold the balloon close to a small non-metal object.</li>
+                <li>Observe what happens.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
 
-
- <h3>Materials:</h3>
- 
- <ul>
-     <li>Balloon</li>
-     <img src="https://plus.unsplash.com/premium_photo-1681488068521-8912e7d5d5fd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFsbG9vbnN8ZW58MHx8MHx8fDA%3D" width="170">
-     
-     <li>Wool fabric</li>
-     <img src="https://www.clothhouse.com/cdn/shop/articles/wool-blog.jpg?v=1695809689" width="170">
-     
-     <li>Graphite</li>
-     <img src="https://physicsopenlab.org/wp-content/uploads/2018/01/covergraphite.jpg" width="170">
-     
-     <li>Wood</li>
-     <img src="https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2024/09/092624_jl_wood-vaults_feat.jpg" width="170">
-     
-     <li>Piece of plastic</li>
-     <img src="https://i.abcnewsfe.com/a/45e72674-b3fb-4165-9280-1c8e688132fd/bottled-water-1-rf-gty-bb-240110_1704896469115_hpMain.jpg" width="170">
-     
-     <li>Copper Coin</li>
-     <li>Silver Coin</li>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjRG_0kg9sqAn_suLqzQ11duJGZWkZOQhLsQ&s" width="170">
-     
-  </ul>
-  
-  <h3><u>Recomendations:</u></h3>
-  
-  <p>For the balloon, it works best if it is made of rubber.<p>
-      
-      <p>The wool fabric or your hair is fine to charge the balloon.</p>
-      
-      <p>For the non-metal object, you can use a piece of wood for simplicity or something easy like a plastic straw.</p>
-      
-      <p>For the metal object, an easy and accessible option is an aluminum foil ball or a paper clip. But if you don't want either of those, you can use a small metal pin.</p>
-      
-      <p>An insulated surface can be a plastic table or even a simple large book.</p>
-      
-      <p>Obviously, you need a dark room—wait until nighttime or darken a room.</p>
-      
-      <p></p>
-  
-  
-   <h3>Steps:</h3>
-   
- <ol>
-     <li>Rub the balloon vigorously on the wool fabric or your hair. This action transfers electrons to the balloon's surface, giving it a negative charge.</li>
-     <li>Hold the balloon close to a small metal object.</li>
-     <li>Hold the balloon close to a small non-metal object.</li>
-     <li>Observe</li>
-  </ol>
-  
-   </body>
-   </html>
